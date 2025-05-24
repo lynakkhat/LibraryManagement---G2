@@ -5,7 +5,6 @@ export class User {
     constructor(
         private userId: number, 
         protected userName: string, 
-        private email: string, 
         private password: string
     ) {}
 

@@ -4,7 +4,7 @@ export class Book {
     constructor(public bookId:number, 
         public title:string, 
         private author:string, 
-        private typeOfBook:string, 
+        private category:string, 
         private isAvailable:boolean) {
     }
 }

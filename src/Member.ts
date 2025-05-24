@@ -6,8 +6,8 @@ export class Member extends User {
     private borrowedBooks: BorrowRecord[];
     private returnedBooks: BorrowRecord[];
     
-    constructor(userId:number, userName:string, email:string, password:string){
-        super(userId, userName, email, password);
+    constructor(userId:number, userName:string, password:string){
+        super(userId, userName, password);
         this.borrowedBooks = [];
         this.returnedBooks = [];
     }

@@ -6,8 +6,8 @@ export class Admin extends User {
     private books: Book[] = [];
     private users: User[] = [];
     private borrowRecords: BorrowRecord[] = [];
-    constructor(userId:number, userName:string, email:string, password:string){
-        super(userId, userName, email, password);
+    constructor(userId:number, userName:string,password:string){
+        super(userId, userName,password);
     }
 
     public addBook(book:Book):void {
@@ -49,9 +49,4 @@ export class Admin extends User {
         console.log(`Overdue books found: ${overdue.length}`);
         return overdue;
     }
-
-    // public findUserByEmail(email:string):User or null {
-    //     const user = this.users.find(u => u.getEmail() === email);
-    //     return user || null;
-    // }
 }

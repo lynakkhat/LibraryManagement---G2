@@ -8,7 +8,7 @@ export class BorrowRecord {
         private borrowDate:Date,
         private dueDate:Date, 
         private returnDate:Date){
-
+ 
     }
 
     public markReturn(returnDate:Date):void {

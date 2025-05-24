@@ -12,7 +12,7 @@ const book3 = new Book(3, "To Kill a Mockingbird", "Harper Lee", "Classic", true
 const library: Book[] = [book1, book2, book3];
 
 // Create a member
-const member1 = new Member(101, "Alice", "alice@example.com", "password123");
+const member1 = new Member(101, "Alice","password123");
 
 // Simulate member registering and logging in
 member1.register();
